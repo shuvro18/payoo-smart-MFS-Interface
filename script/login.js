@@ -12,7 +12,7 @@ document.getElementById("login-button").addEventListener("click", function () {
     if(number==="12345678900" && pin=== "1234"){
         alert("Login Successful");
 
-        window.location.assign("../home.html")
+        window.location.assign("./home.html")
     }
     else{
         alert("Login Failed😓");
